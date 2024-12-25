@@ -1,0 +1,14 @@
+/*global reset on margin and padding to override differences in browser settings*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*everything except margins*/
+}
+
+canvas {
+
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+}
